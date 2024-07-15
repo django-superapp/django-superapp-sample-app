@@ -9,3 +9,6 @@ django_superapp bootstrap-app \
     --template-repo https://github.com/django-superapp/django-superapp-sample-app ./sample_app;
 cd ../../;
 ```
+
+### Documentation
+For a more detailed documentation, visit [https://django-superapp.bringes.io](https://django-superapp.bringes.io).
