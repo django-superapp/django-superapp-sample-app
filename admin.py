@@ -1,6 +1,6 @@
 from django.contrib import admin
-from django_superapp.helpers import SuperAppModelAdmin
-from django_superapp.sites import superapp_admin_site
+from superapp.apps.admin_portal.helpers import SuperAppModelAdmin
+from superapp.apps.admin_portal.sites import superapp_admin_site
 
 from superapp.apps.sample_app.models import SampleModel
 
