@@ -1,7 +1,6 @@
 from django.apps import AppConfig
 
+class AppConfig(AppConfig):
+    name = 'superapp.apps.sample_app'
+    default = True
 
-class GraphQLConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'superapp.apps.prelude_sms'
-    verbose_name = 'Prelude SMS'

@@ -1,13 +1,12 @@
-# Django SuperApp - Prelude SMS Authentication Handler
-This app provides SMS authentication handler using Prelude SMS API.
+# Django SuperApp - Sample App
 ### Getting Started
 1. Setup the project using the instructions from https://django-superapp.bringes.io/
-2. Setup `prelude_sms` app using the below instructions:
+2. Setup `sample_app` app using the below instructions:
 ```bash
 cd my_superapp;
 cd superapp/apps;
 django_superapp bootstrap-app \
-    --template-repo https://github.com/django-superapp/django-superapp-prelude-sms ./prelude_sms;
+    --template-repo https://github.com/django-superapp/django-superapp-sample-app ./sample_app;
 cd ../../;
 ```
 
